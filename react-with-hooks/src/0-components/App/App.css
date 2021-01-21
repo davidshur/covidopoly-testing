@@ -14,4 +14,5 @@ body {
   font-family: 'Yusei Magic', sans-serif;
   background-color: var(--bg-color);
   color: #444;
+  font-size: 40px;
 }

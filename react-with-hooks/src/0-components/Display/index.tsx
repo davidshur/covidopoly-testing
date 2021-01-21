@@ -1,5 +1,3 @@
-import './Display.css';
-
 interface DisplayProps {
   count: number;
 }
@@ -7,7 +5,7 @@ interface DisplayProps {
 function Display(props: DisplayProps) {
   return (
     <h1>
-      COUNT: {props.count}
+      Count: {props.count}
     </h1>
   );
 }

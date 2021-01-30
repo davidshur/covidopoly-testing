@@ -1,0 +1,19 @@
+button {
+  cursor: pointer;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: var(--bg-color);
+  box-shadow: var(--nm);
+  transition: box-shadow 0.3s ease-in-out;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:active {
+  box-shadow: var(--nm-inset);
+}

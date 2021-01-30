@@ -1,0 +1,18 @@
+:root {
+  --bg-color: #e8c9c9;
+  --nm: 10px 10px 20px #c5abab, -10px -10px 20px #ffe7e7;
+  --nm-inset: inset 10px 10px 20px #c5abab, inset -10px -10px 20px #ffe7e7;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Yusei Magic', sans-serif;
+  background-color: var(--bg-color);
+  color: #444;
+  font-size: 40px;
+}
